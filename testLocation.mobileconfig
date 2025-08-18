@@ -1,0 +1,24 @@
+<dict>
+  <key>PayloadType</key>
+  <string>com.apple.applicationmanaged</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+  <key>PayloadIdentifier</key>
+  <string>com.miniorange.applemdm</string>
+  <key>PayloadUUID</key>
+  <string>ABCDEF12-3456-7890-ABCD-EF1234567890</string>
+  <key>PayloadDisplayName</key>
+  <string>Your App Managed Config</string>
+  <key>PayloadContent</key>
+  <dict>
+    <key>com.miniOrange.MiniorangeMDM</key> <!-- your app bundle ID -->
+    <dict>
+      <key>customerTenantId</key>
+      <string>679c00b77cdeb3efa5b59f68</string>
+      <key>userId</key>
+      <string>1234567890</string>
+      <key>deviceId</key>
+      <string>688af8bb361f7631d0cfb805</string>
+    </dict>
+  </dict>
+</dict>
